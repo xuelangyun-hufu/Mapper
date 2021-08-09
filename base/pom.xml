@@ -48,6 +48,7 @@
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-core</artifactId>
             <version>${project.version}</version>
+            <classifier>hufu</classifier>
             <optional>true</optional>
         </dependency>
 

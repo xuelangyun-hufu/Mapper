@@ -42,34 +42,41 @@
             <groupId>javax.persistence</groupId>
             <artifactId>persistence-api</artifactId>
         </dependency>
+
         <dependency>
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-core</artifactId>
+            <classifier>hufu</classifier>
             <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-base</artifactId>
+            <classifier>hufu</classifier>
             <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-extra</artifactId>
+            <classifier>hufu</classifier>
             <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-spring</artifactId>
+            <classifier>hufu</classifier>
             <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-weekend</artifactId>
+            <classifier>hufu</classifier>
             <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-generator</artifactId>
+            <classifier>hufu</classifier>
             <optional>true</optional>
         </dependency>
     </dependencies>
@@ -79,6 +86,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
+                <version>3.2.1</version>
                 <executions>
                     <execution>
                         <phase>package</phase>

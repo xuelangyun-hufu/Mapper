@@ -40,26 +40,32 @@
         <dependency>
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-core</artifactId>
+            <classifier>hufu</classifier>
         </dependency>
         <dependency>
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-base</artifactId>
+            <classifier>hufu</classifier>
         </dependency>
         <dependency>
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-extra</artifactId>
+            <classifier>hufu</classifier>
         </dependency>
         <dependency>
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-spring</artifactId>
+            <classifier>hufu</classifier>
         </dependency>
         <dependency>
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-weekend</artifactId>
+            <classifier>hufu</classifier>
         </dependency>
         <dependency>
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-generator</artifactId>
+            <classifier>hufu</classifier>
         </dependency>
     </dependencies>
 

@@ -45,12 +45,15 @@
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-core</artifactId>
             <optional>true</optional>
+            <classifier>hufu</classifier>
         </dependency>
         <dependency>
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-spring</artifactId>
+            <classifier>hufu</classifier>
             <optional>true</optional>
         </dependency>
+
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>

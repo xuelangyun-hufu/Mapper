@@ -40,10 +40,13 @@
             <artifactId>slf4j-api</artifactId>
             <scope>runtime</scope>
         </dependency>
+
         <dependency>
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-spring-boot-starter</artifactId>
+            <classifier>hufu</classifier>
         </dependency>
+
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>

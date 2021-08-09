@@ -46,22 +46,26 @@
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
         </dependency>
+
         <dependency>
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-core</artifactId>
             <version>${project.version}</version>
+            <classifier>hufu</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-weekend</artifactId>
             <version>${project.version}</version>
+            <classifier>hufu</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-base</artifactId>
             <version>${project.version}</version>
+            <classifier>hufu</classifier>
             <scope>test</scope>
         </dependency>
 

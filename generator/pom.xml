@@ -78,10 +78,12 @@
             <artifactId>persistence-api</artifactId>
             <scope>test</scope>
         </dependency>
+
         <dependency>
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-base</artifactId>
             <version>${mapper-module.version}</version>
+            <classifier>hufu</classifier>
             <scope>test</scope>
         </dependency>
     </dependencies>

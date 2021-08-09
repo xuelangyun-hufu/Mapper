@@ -57,15 +57,21 @@
         <developerConnection>scm:git@github.com:abel533/mapper.git</developerConnection>
         <url>git@github.com:abel533/mapper.git</url>
     </scm>
+
+    <properties>
+        <skipTests>true</skipTests>
+    </properties>
 	
 	<modules>
-        <module>all</module>
+        <!--<module>all</module>-->
+
         <module>base</module>
         <module>core</module>
         <module>extra</module>
         <module>spring</module>
-        <module>weekend</module>
         <module>generator</module>
-        <module>spring-boot-starter</module>
+
+        <!--<module>weekend</module>-->
+        <!--<module>spring-boot-starter</module>-->
     </modules>
 </project>

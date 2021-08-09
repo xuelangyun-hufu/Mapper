@@ -31,6 +31,7 @@
         <artifactId>mapper-parent</artifactId>
         <version>3</version>
     </parent>
+
     <artifactId>mapper-spring-boot</artifactId>
     <version>2.1.5</version>
     <packaging>pom</packaging>
@@ -42,7 +43,7 @@
     <modules>
         <module>mapper-spring-boot-autoconfigure</module>
         <module>mapper-spring-boot-starter</module>
-        <module>mapper-spring-boot-samples</module>
+        <!--<module>mapper-spring-boot-samples</module>-->
     </modules>
 
     <properties>
@@ -84,27 +85,33 @@
                 <groupId>tk.mybatis</groupId>
                 <artifactId>mapper-core</artifactId>
                 <version>${mapper-module.version}</version>
+                <classifier>hufu</classifier>
             </dependency>
             <dependency>
                 <groupId>tk.mybatis</groupId>
                 <artifactId>mapper-base</artifactId>
                 <version>${mapper-module.version}</version>
+                <classifier>hufu</classifier>
             </dependency>
             <dependency>
                 <groupId>tk.mybatis</groupId>
                 <artifactId>mapper-weekend</artifactId>
                 <version>${mapper-weekend.version}</version>
+                <classifier>hufu</classifier>
             </dependency>
             <dependency>
                 <groupId>tk.mybatis</groupId>
                 <artifactId>mapper-spring</artifactId>
                 <version>${mapper-module.version}</version>
+                <classifier>hufu</classifier>
             </dependency>
             <dependency>
                 <groupId>tk.mybatis</groupId>
                 <artifactId>mapper-extra</artifactId>
                 <version>${mapper-module.version}</version>
+                <classifier>hufu</classifier>
             </dependency>
+
             <dependency>
                 <groupId>org.mybatis</groupId>
                 <artifactId>mybatis</artifactId>
@@ -115,16 +122,21 @@
                 <artifactId>mybatis-spring</artifactId>
                 <version>${mybatis-spring.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>tk.mybatis</groupId>
                 <artifactId>mapper-spring-boot-autoconfigure</artifactId>
                 <version>${project.version}</version>
+                <classifier>hufu</classifier>
             </dependency>
+
             <dependency>
                 <groupId>tk.mybatis</groupId>
                 <artifactId>mapper-spring-boot-starter</artifactId>
                 <version>${project.version}</version>
+                <classifier>hufu</classifier>
             </dependency>
+
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
